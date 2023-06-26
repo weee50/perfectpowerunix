@@ -1,0 +1,49 @@
+body {
+	background-color: black
+}
+
+table {
+	table-layout: fixed;
+}
+
+p {
+	font-family: "Roboto Mono";
+	font-size: 10pt;
+	color: white;
+	text-align: center;
+}
+
+td {
+	font-family: "Roboto Mono";
+	font-size: 12pt;
+	color: white;
+	text-align: center;
+}
+
+.blue {
+	color: #00ffff;
+}
+
+.red {
+	color: #ff0000;
+}
+
+.green {
+	color: #00ff00;
+}
+
+.purple {
+	color: #df00ff;
+}
+
+.orange {
+	color: #ff9f00;
+}
+
+.big {
+	font-size: 24pt;
+}
+
+div {
+	min-width: 400px;
+}
