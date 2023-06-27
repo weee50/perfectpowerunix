@@ -1,7 +1,8 @@
 function updateTime()
 {
   let unixTime = Math.floor(Date.now() / 1000)
-  document.getElementById("time").innerText = unixTime
+  document.getElementById("currentTime").innerText = unixTime
+  document.getElementById("currentDate").innerText = formatDate(unixTime)
 
   let nextSquare = Math.ceil(unixTime ** (1/2)) ** 2
   document.getElementById("squareTime").innerText = nextSquare
