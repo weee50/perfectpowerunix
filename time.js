@@ -27,7 +27,7 @@ function updateTime()
   for (let i = 5; i < 64; i++) // there probably isn't going to be anyone using this website at 2^65 unix time, is there?
   {
     let nextPower = Math.ceil(unixTime ** (1/i)) ** i
-    if (nextPower < nextHigher)
+    if (nextPower <= nextHigher)
     {
       nextHigher = nextPower
       nextHigherPower = i
